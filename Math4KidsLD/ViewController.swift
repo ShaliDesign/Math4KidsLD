@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         
     btn1.setTitle(String(randomA), for: .normal)
     btn2.setTitle(String(randomB), for: .normal)
-    btn3.setTitle(String(sum(p1: randomA), p2: randomB));, for: .normal)
+    btn3.setTitle(String(sum(p1: randomA, p2: randomB)), for: .normal)
     
     }
 
