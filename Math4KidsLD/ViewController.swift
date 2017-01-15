@@ -22,8 +22,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     setRandom()
+    
+        
+        
+        
         
     }
+    @IBAction func btn_action(_ sender: UIButton) {
+        setRandom()
+    }
+    
 
     func setRandom() {
         let random1 = Int (arc4random_uniform(5)) + 1

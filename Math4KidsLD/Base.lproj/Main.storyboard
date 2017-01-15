@@ -125,6 +125,9 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.66408232868020312" green="0.05501737220886594" blue="0.50845022476924195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btn_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8EG-V9-Vkt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqu-9b-TXw">
                                 <rect key="frame" x="159" y="503" width="46" height="30"/>
@@ -133,14 +136,20 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.66408232869999995" green="0.055017372209999998" blue="0.50845022480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btn_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lN6-7c-iZf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iip-60-HCc">
-                                <rect key="frame" x="284" y="503" width="46" height="30"/>
+                                <rect key="frame" x="247" y="483" width="104" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.66408232869999995" green="0.055017372209999998" blue="0.50845022480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btn_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="76J-RZ-dCw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
