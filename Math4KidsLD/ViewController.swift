@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var time: Int = 0
+    var timer = Timer()
     
     
     @IBOutlet weak var lbNum1: UILabel!
@@ -19,12 +21,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var btn2: UIButton!
     @IBOutlet weak var btn3: UIButton!
     
+    @IBOutlet weak var lbResult: UILabel!
+    @IBOutlet weak var lbDau: UILabel!
+    @IBOutlet weak var lbRight: UILabel!
+    @IBOutlet weak var lbWrong: UILabel!
+    @IBOutlet weak var lbTime: UILabel!
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     setRandom()
-    
-        
-        
         
         
     }
@@ -61,10 +68,44 @@ class ViewController: UIViewController {
     func sum(p1: Int, p2: Int) -> Int
     {
         return p1+p2;
+    }
     
+    
+    func countDown() {
+        time = time - 1
+        lbTime.text = String(time)
+        if time == 0 {
+            time = 10
+        }
+    }
+    
+    func start(){
+        time = 10
+        
+    }
+    func resetTimer() {
+        
+    }
+    
+    @IBAction func btn1(_ sender: UIButton) {
+    }
+    @IBAction func btn2(_ sender: UIButton) {
+    }
+    
+    @IBAction func btn3(_ sender: UIButton) {
+    }
+    
+    func randomPosition(_numb:Int){
+        let randomPos = Int(arc4random_uniform(3)+1)
+        btn1.setTitle(String(_numb), for: UIControlState())
+        btn2.setTitle(String(_numb), for: UIControlState())
+        btn3.setTitle(String(_numb), for: UIControlState())
     }
     
     }
+    
+    
+    
 
 
 
