@@ -167,7 +167,6 @@
                         <outlet property="lbResult" destination="4uG-Pg-fl6" id="2uH-Uz-ADM"/>
                         <outlet property="lbRight" destination="JgU-zV-k1v" id="HFs-ca-KOT"/>
                         <outlet property="lbTime" destination="esh-g6-edm" id="mJZ-LA-zFH"/>
-                        <outlet property="lbWright" destination="JgU-zV-k1v" id="Esd-t4-cCi"/>
                         <outlet property="lbWrong" destination="2wi-qq-Lf6" id="zeo-4G-4yn"/>
                     </connections>
                 </viewController>

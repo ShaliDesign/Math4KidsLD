@@ -96,7 +96,7 @@ class ViewController: UIViewController {
     }
     
     func randomPosition(_numb:Int){
-        let randomPos = Int(arc4random_uniform(3)+1)
+        _ = Int(arc4random_uniform(3)+1)
         btn1.setTitle(String(_numb), for: UIControlState())
         btn2.setTitle(String(_numb), for: UIControlState())
         btn3.setTitle(String(_numb), for: UIControlState())
